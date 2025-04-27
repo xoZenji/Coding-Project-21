@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import Gallery from './components/Gallery';
+import './App.css';
 
 function App() {
   // State to store the list of tours
