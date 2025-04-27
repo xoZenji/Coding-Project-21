@@ -1,8 +1,8 @@
-//Task 3: Implement Gallery component that displays list of tours
 import React from 'react';
 import TourCard from './TourCard';
 
 function Gallery({ tours, onRemove }) {
+  // Map over the tours array and render a TourCard for each tour
   return (
     <div>
       {tours.map((tour) => (
